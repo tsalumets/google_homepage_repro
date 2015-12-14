@@ -1,0 +1,95 @@
+body, div, nav{
+  border: 1px solid #e6e6e6;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.navbar {
+
+}
+
+.navbar ul {
+  float: right;
+}
+
+.navbar li {
+  float: left;
+  padding: 20px 5px;
+  color: #808080;
+}
+
+.navbar li:last-child {
+  margin-right: 10px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+#apps {
+  position: relative;
+  bottom: 10px;
+}
+
+#alerts {
+  position: relative;
+  bottom: 8px;
+}
+
+#konto {
+  position: relative;
+  bottom: 10px;
+}
+
+/*
+  ========================================
+  Body
+  ========================================
+*/
+
+.container {
+  clear: both;
+  margin: auto;
+  width: 50%;
+}
+
+.logo img{
+  display: block;
+  width: 300px;
+  margin: auto;
+}
+
+.searchbar {
+  width: 100%;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.searchbar:hover {
+  border-color: #666;
+}
+
+.btn-container {
+  width: 230px;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  color: #666666;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
